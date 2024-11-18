@@ -1,7 +1,9 @@
 import 'dart:convert';
 
-import 'package:request_films_project/features/filmes/Model/FilmeModel.dart';
 import 'package:http/http.dart' as http;
+
+
+import '../Model/FilmeModel.dart';
 
 class FilmesService {
   final String _url = "https://raw.githubusercontent.com/alura-cursos/obtendo_dados_com_flutter_http/main/filmes.json";
